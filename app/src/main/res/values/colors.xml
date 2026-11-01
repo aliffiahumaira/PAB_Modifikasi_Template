@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_sage">#42634D</color>
+    <color name="primary_container_sage">#5A7C65</color>
+    <color name="primary_fixed_sage">#C6ECD0</color>
+    <color name="on_primary_fixed">#002110</color>
+    <color name="secondary_rose">#8B4B58</color>
+    <color name="secondary_container_rose">#FFAEBC</color>
+    <color name="secondary_fixed_dim">#FFB2BF</color>
+    <color name="tertiary_blush">#EED8D2</color>
+    <color name="surface_porcelain">#F0FDF1</color>
+    <color name="surface_container_low">#EAF7EC</color>
+    <color name="surface_container">#E4F1E6</color>
+    <color name="surface_container_high">#DFEBE0</color>
+    <color name="surface_container_lowest">#FFFFFF</color>
+    <color name="on_surface_forest">#131E17</color>
+    <color name="on_surface_variant">#424843</color>
+    <color name="outline">#727972</color>
+    <color name="outline_variant">#C2C8C1</color>
+    <color name="error_red">#BA1A1A</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

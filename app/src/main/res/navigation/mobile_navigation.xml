@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_katalog">
+
+    <fragment
+        android:id="@+id/nav_katalog"
+        android:name="com.example.week_6.ui.katalog.KatalogFragment"
+        android:label="@string/menu_katalog"
+        tools:layout="@layout/fragment_katalog" />
+
+    <fragment
+        android:id="@+id/nav_kustomisasi"
+        android:name="com.example.week_6.ui.kustomisasi.KustomisasiFragment"
+        android:label="@string/menu_kustomisasi"
+        tools:layout="@layout/fragment_kustomisasi" />
+
+    <fragment
+        android:id="@+id/nav_keranjang"
+        android:name="com.example.week_6.ui.keranjang.KeranjangFragment"
+        android:label="@string/menu_keranjang"
+        tools:layout="@layout/fragment_keranjang" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.week_6.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

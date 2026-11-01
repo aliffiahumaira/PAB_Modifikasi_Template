@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Week_6" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_sage</item>
+        <item name="colorPrimaryVariant">@color/primary_container_sage</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_rose</item>
+        <item name="colorSecondaryVariant">@color/secondary_rose</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color & window background. -->
+        <item name="android:statusBarColor">@color/primary_sage</item>
+        <item name="android:windowBackground">@color/surface_porcelain</item>
+    </style>
+
+    <style name="Theme.Week_6.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/surface_porcelain</item>
+    </style>
+
+    <style name="Theme.Week_6.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Week_6.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
